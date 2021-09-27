@@ -16,7 +16,7 @@
     
     <div id="root">
         <ol>
-            <li v-for="(email, index) in emails" :key="index" v-if="">Indirizzo email: {{email}}</li>
+            <li v-for="(email, index) in emails" :key="index" v-if="emails.length == 10">Indirizzo email: {{email}}</li>
         </ol>
     </div>
 
